@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+ 
+<header>
+    <div class="zagol">
+    <a href="./index.html"><img src="./img/avt.png" class="logo" alt=""/><h1>Узнай Россию</h1></a>
+    </div>
+    <div class="navigation">
+    <nav>
+        <a class="nav_text" href="./zaya.html">Оформить заявку</a>
+        <a class="nav_text" href="./lk.html">Личный кабинет</a>
+    </nav>
+</div>
+</header>
+ 
+<div class="container">
+   
+    <main>
+       
+        <form>
+            <div class="vhod">
+            <div class="form_vhod">
+                
+                <p>
+                    <label for="fio">Введите полное название юр. лица </label>
+                    <input class="inp" type="text" id="fio" name="fio" required  pattern="/[А-Яа-я]+$/u">
+                    </p>
+                    <p>
+                    <label for="fio">Введите адрес юр. лица </label>
+                    <input class="inp" type="text" id="fio" name="fio" required  pattern="/[А-Яа-я]+$/u">
+                    </p>
+                    <p>
+                    <label for="fio">Введите номер из реестра туроператоров </label>
+                    <input class="inp" type="text" id="fio" name="fio" required  >
+                    </p>
+                <p>
+                    <label for="inn">Введите ИНН </label>
+                    <input class="inp" type="text" id="inn" name="inn" required pattern="[0-9]*">
+                    </p>
+                    <p>
+                    <label for="kpp">Введите КПП </label>
+                    <input class="inp" type="text" id="kpp" name="kpp" required pattern="[0-9]*">
+                    </p>
+                    <p>
+                    <label for="schet">Введите расчётный счет </label>
+                    <input class="inp" type="text" id="schet" name="schet" required pattern="[0-9]*">
+                    </p>
+                    <p>
+                    <label for="bank">Введите наименование банка </label>
+                    <input class="inp" type="text" id="bank" name="bank" required >
+                    </p>
+                    <p>
+                    <label for="bank_id">Введите банковский идентификатор </label>
+                    <input class="inp" type="text" id="bank_id" name="bank_id" required pattern="[0-9]*">
+                    </p>
+                    <p>
+                    <label for="innkor_schet">Введите корреспондентский счет </label>
+                    <input class="inp" type="text" id="innkor_schet" name="innkor_schet" required pattern="[0-9]*">
+                    </p>
+                    <p>
+                    <label for="fio">Введите ФИО </label>
+                    <input class="inp" type="text" id="fio" name="fio" required  pattern="/[А-Яа-я]+$/u">
+                    </p>
+                    <p>
+                        <label for="email">Введите адрес электронной почты</label>
+                        <input class="inp" type="email" id="email" name="email" >
+                    </p>
+                    <p>
+                        <label for="phone">Введите номер телефона</label>
+                        <input class="inp" type="tel" id="phone" name="phone" >
+                    </p>
+                    <p>
+                    <label for="password">Введите пароль </label>
+                    <input class="inp" type="password" id="password" name="password" required>
+                    </p>
+                    <p>
+                    <label for="password">Введите пароль повторно </label>
+                    <input class="inp" type="password" id="password" name="password" required>
+                    </p>
+                
+            </div>
+            <div class="form_btn">
+                <div class="btn_k">
+                    <a class="btn" href="./lk.html">Зарегистрироваться</a>
+            
+            </div>
+            </div>
+        </form>
+        </main>
+
+ 
+
+ </div>
+</body>
+<footer>
+    <div class="foot">
+    <p class="txtfoot">О нас </p>
+    <p class="txtfoot">Контактный телефон: +7 (999) 999-99-99</p>
+    <p class="txtfoot">Электронная почта: uznai@Russia.ru</p>
+</div>
+</footer>
+</html>
